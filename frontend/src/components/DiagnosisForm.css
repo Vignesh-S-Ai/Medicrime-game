@@ -1,0 +1,43 @@
+.diagnosis-form {
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(74, 144, 217, 0.1) 100%);
+}
+
+.diagnosis-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+}
+
+.form-actions {
+  margin-top: 0.5rem;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, var(--primary) 0%, #3a7bc8 100%);
+}
+
+.submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
